@@ -7,9 +7,9 @@ import model.entities.Seller;
 
 public interface SellerDao {
 	
-	void insert(Seller department);
+	void insert(Seller obj);
 
-	void update(Seller department);
+	void update(Seller obj);
 
 	void deleteByld(Integer id);
 
